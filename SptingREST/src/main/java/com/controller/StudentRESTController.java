@@ -15,6 +15,7 @@ import com.service.StudentServiceImpl;
 public class StudentRESTController {
 	private StudentServiceImpl studentService = new StudentServiceImpl();
 
+	
 	@RequestMapping(value = "/setup", method = RequestMethod.GET)
 	public List<Student> getDefault() {
 		studentService.setup();

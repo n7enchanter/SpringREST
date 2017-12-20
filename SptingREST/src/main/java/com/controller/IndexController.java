@@ -8,6 +8,7 @@ public class IndexController {
 	
 	@RequestMapping(value = "/TestREST/")
 	public String index() {
+		
 		return "index";
 	}
 

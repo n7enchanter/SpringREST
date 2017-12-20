@@ -2,6 +2,7 @@ package com.model;
 
 import java.util.List;
 
+
 public class Course {
 	private static int increment = 0; 
 	private int id;
